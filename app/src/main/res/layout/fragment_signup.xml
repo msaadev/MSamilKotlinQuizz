@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/custom_back1"
+    tools:context=".view.Login.SignupFragment">
+
+    <ScrollView
+    android:id="@+id/scroll2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/constrait2"
+            >
+        <EditText
+            android:id="@+id/emailSignupText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:paddingStart="5dp"
+            android:hint="Email :"
+            android:textColor="@color/loginColor"
+            android:textSize="@dimen/loginTextSize"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@id/constrait2"
+            app:layout_constraintStart_toStartOf="@id/constrait2"
+            app:layout_constraintTop_toTopOf="@id/constrait2" />
+
+            <EditText
+                android:id="@+id/userNameSignupText"
+                android:paddingStart="5dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="User Name :"
+                android:textColor="@color/loginColor"
+                android:textSize="@dimen/loginTextSize"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="@id/constrait2"
+                app:layout_constraintStart_toStartOf="@id/constrait2"
+                app:layout_constraintTop_toBottomOf="@id/emailSignupText" />
+
+        <EditText
+            android:id="@+id/passwordSignupText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="@dimen/loginTextSize"
+            android:hint="Password :"
+            android:paddingStart="5dp"
+            android:textColor="@color/loginColor"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@id/constrait2"
+            app:layout_constraintStart_toStartOf="@id/constrait2"
+            app:layout_constraintTop_toBottomOf="@id/userNameSignupText" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_btn2"
+            android:textSize="@dimen/btnTextSize"
+            android:text="@string/signupBtn"
+            android:textColor="@color/btnColor"
+            app:layout_constraintEnd_toEndOf="@+id/passwordSignupText"
+            app:layout_constraintTop_toBottomOf="@+id/passwordSignupText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

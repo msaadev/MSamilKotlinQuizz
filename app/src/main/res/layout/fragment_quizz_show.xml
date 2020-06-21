@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_back1"
+    tools:context=".view.QuizzShow">
+
+    <ScrollView
+        android:id="@+id/questionScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="TextView"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+              />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A : "
+                android:background="@drawable/custom_btn2"
+                android:textColor="@color/btnColor"
+                android:textSize="@dimen/btnTextSize"
+                android:layout_margin="5dp"
+                android:id="@+id/aBtn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B : "
+                android:background="@drawable/custom_btn2"
+                android:textColor="@color/btnColor"
+                android:textSize="@dimen/btnTextSize"
+                android:layout_margin="5dp"
+                android:id="@+id/bBtn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C : "
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn2"
+                android:textColor="@color/btnColor"
+                android:textSize="@dimen/btnTextSize"
+                android:id="@+id/cBtn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D : "
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_btn2"
+                android:textColor="@color/btnColor"
+                android:textSize="@dimen/btnTextSize"
+                android:id="@+id/dBtn"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Error ! . . . ."
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:id="@+id/errorShow"
+        />
+
+    <ProgressBar
+        android:id="@+id/loadingShow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

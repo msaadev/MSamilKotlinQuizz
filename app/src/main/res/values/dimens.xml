@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginTextSize">16sp</dimen>
+    <dimen name="btnTextSize">15sp</dimen>
+    <dimen name="btnPadding">10dp</dimen>
+    <dimen name="btnMargin">3dp</dimen>
+    <dimen name="radioTextSize">16sp</dimen>
+    <dimen name="textSize2">30sp</dimen>
+</resources>

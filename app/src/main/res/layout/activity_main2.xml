@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_back1"
+    tools:context=".view.MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll21"
+        android:orientation="vertical"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cons1"
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectQuizText"
+                android:textSize="@dimen/textSize2"
+                android:textColor="@color/loginColor"
+                android:gravity="center"
+                android:padding="@dimen/btnPadding"
+                app:layout_constraintTop_toTopOf="@id/cons1"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/text1"
+                android:paddingTop="@dimen/btnPadding"
+                android:scrollbars="none"
+                android:paddingBottom="@dimen/btnPadding"
+                android:id="@+id/scroll22">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <Button
+                        android:id="@+id/anyButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/anyBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+
+                    <Button
+                        android:id="@+id/generalButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/generalBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/sportButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/sportBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/historyButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/historyBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/filmButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/filmBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/musicButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/musicBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/mathButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/mathBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/computerButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/computerBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/geographyButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/geographyBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+                    <Button
+                        android:id="@+id/vehiclesButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/btnMargin"
+                        android:background="@drawable/custom_btn2"
+                        android:gravity="center"
+                        android:padding="@dimen/btnPadding"
+                        android:text="@string/vehiclesBtn"
+                        android:textColor="@color/btnColor"
+                        android:textSize="@dimen/btnTextSize" />
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectDifficultyText"
+                android:textSize="@dimen/textSize2"
+                android:textColor="@color/loginColor"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:padding="@dimen/btnPadding"
+                app:layout_constraintTop_toBottomOf="@id/scroll22"/>
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/text12"
+                android:id="@+id/radioGroup"
+                android:gravity="center"
+                android:layout_margin="@dimen/btnMargin"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/radioEasy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioEasyText"
+                    android:padding="@dimen/btnPadding"
+                    android:gravity="center"
+                    android:shadowColor="@color/radioTextColor"
+                    android:textSize="@dimen/radioTextSize"
+                    android:textColor="@color/radioTextColor"/>
+                <RadioButton
+                    android:id="@+id/radioNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioNormalText"
+                    android:padding="@dimen/btnPadding"
+                    android:gravity="center"
+                    android:textSize="@dimen/radioTextSize"
+                    android:textColor="@color/radioTextColor"/>
+                <RadioButton
+                    android:id="@+id/radioHard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radioHardText"
+                    android:padding="@dimen/btnPadding"
+                    android:gravity="center"
+                    android:textSize="@dimen/radioTextSize"
+                    android:textColor="@color/radioTextColor"/>
+
+            </RadioGroup>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="70dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/start_test"
+                android:id="@+id/startTest"
+                android:layout_weight="3"
+                app:layout_constraintTop_toBottomOf="@id/radioGroup"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+            <ImageView
+                android:id="@+id/toExit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:src="@drawable/signout_pic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="10dp"
+                />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

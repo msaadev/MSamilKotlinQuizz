@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MSamil Kotlin Quizz App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginBtn">Log In</string>
+    <string name="signupBtn">Sign Up</string>
+    <string name="menuLogOut">Log Out</string>
+    <string name="selectQuizText">Choose Your Category</string>
+    <string name="sportBtn">sport</string>
+    <string name="generalBtn">general</string>
+    <string name="historyBtn">history</string>
+    <string name="filmBtn">Film</string>
+    <string name="musicBtn">Music</string>
+    <string name="mathBtn">Math</string>
+    <string name="computerBtn">Computer</string>
+    <string name="anyBtn">Any</string>
+    <string name="geographyBtn">Geography</string>
+    <string name="vehiclesBtn">Vehicles</string>
+    <string name="easyText">Easy</string>
+    <string name="radioNormalText">Normal</string>
+    <string name="radioHardText">Hard</string>
+    <string name="radioEasyText">Easy</string>
+    <string name="startTestText">Start Test</string>
+    <string name="selectDifficultyText">Choose Your Difficulty</string>
+    <string name="updateProfile">Update Your Profile</string>
+    <string name="saveBtn">Save</string>
+    <string name="text01" />
+    <string name="text02">click to select image</string>
+</resources>
